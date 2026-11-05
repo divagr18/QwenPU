@@ -105,6 +105,41 @@ token takes about 16 seconds, against 41 for the Qwenputer NPU.
 | Hidden size | 5120 (Qwen's 2560 plus the computer's dims) |
 | Size | 26.7 GB in bf16, mostly zero padding |
 
+## Citing
+
+Author: [Divyansh Agrawal](https://orcid.org/0009-0003-0739-2473) (ORCID: [0009-0003-0739-2473](https://orcid.org/0009-0003-0739-2473)).
+
+For the source code, cite the software entry below. GitHub's "Cite this repository" button reads
+[CITATION.cff](CITATION.cff).
+
+```bibtex
+@software{agrawal2026qwenpu,
+  author  = {Agrawal, Divyansh},
+  title   = {{QwenPU}: a vector unit compiled into the weights of a language model},
+  year    = {2026},
+  url     = {https://github.com/divagr18/QwenPU},
+  license = {MIT},
+  note    = {Author ORCID: https://orcid.org/0009-0003-0739-2473}
+}
+```
+
+For the Hugging Face model artifact, use DOI [10.57967/hf/11460](https://doi.org/10.57967/hf/11460).
+This DOI identifies the model artifact, not a GitHub source-code release.
+
+```bibtex
+@misc{agrawal2026qwenpu_model,
+  author    = {Agrawal, Divyansh},
+  title     = {{QwenPU}},
+  year      = {2026},
+  publisher = {Hugging Face},
+  version   = {0ea39d7},
+  doi       = {10.57967/hf/11460},
+  url       = {https://huggingface.co/divagr1925/QwenPU},
+  license   = {Apache-2.0},
+  note      = {Model artifact. Author ORCID: https://orcid.org/0009-0003-0739-2473}
+}
+```
+
 ## Credits
 
 stories260K and llama2.c are by [Andrej Karpathy](https://github.com/karpathy) (MIT). The base

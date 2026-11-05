@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use QwenPU, please cite it as below."
+title: "QwenPU: a vector unit compiled into the weights of a language model"
+authors:
+  - family-names: Agrawal
+    given-names: Divyansh
+    orcid: "https://orcid.org/0009-0003-0739-2473"
+license: MIT
+repository-code: "https://github.com/divagr18/QwenPU"
+type: software
+references:
+  - type: generic
+    title: "QwenPU"
+    authors:
+      - family-names: Agrawal
+        given-names: Divyansh
+        orcid: "https://orcid.org/0009-0003-0739-2473"
+    year: 2026
+    version: "0ea39d7"
+    doi: "10.57967/hf/11460"
+    url: "https://huggingface.co/divagr1925/QwenPU"
+    license: Apache-2.0
+    notes: "Hugging Face model artifact; this DOI does not identify a GitHub source-code release."
